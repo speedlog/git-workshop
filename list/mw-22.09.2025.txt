@@ -4,4 +4,4 @@ Pizza
 Hamburger
 Zapiekanka
 Frytki
-Ketchup 222333
+Ketchup
