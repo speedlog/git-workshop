@@ -46,7 +46,7 @@ aaa to będzie cytowanie (ta sekcja nie miała znacznika)
 | comment | Komentarz do zmiany | nie | max 500 znaków | `Brak danych` |
 
 ### Dodajemy obrazek
-![Obrazek](RU-2026.02.24/placeholder.png)
+![Obrazek](placeholder.png)
 
 
 ### Check list
