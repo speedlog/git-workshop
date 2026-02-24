@@ -1,8 +1,15 @@
+List komend do git'a (autor R. Urban)
+git help - podgląd komend dla git (bezpieczniej używać tej opcji, bo opisy mogą być błędne/niekompletne) 
+
+Komendy dla GIT:
 git clone (adres repozytorium) - lokalne pobranie wskazanego repozytorium np (git clone https://github.com/speedlog/git-workshop)
 git status - (aktualny status naszego repozytorium)
-git add [nazwa pliku] - dodaj plik do commit
-git add . - dodaj wszystkie edytowane pliki do commit
+git add [nazwa pliku] - dodaje wskazany nowy plik do commit
+git add . - dodaj wszystkie modyfikowane pliki do commit
+git commit - aktualizuje dodane (add) pliku na serverze
+git commite -m "komentarz" - aktualizacja pliku z komentarzem
 git diff - zobacz roznice pomiedzy wersja aktualna a wersja edytowana (rzeczy bez commite z rzeczyami commite)
+git config list - podglad moich ustawień (autoryzacja, nazwa uzytkownika)
 git log - pokazuje zmiany (commit) jakie były wykonywane w repozytorium
 git reset --hard - cofa wszystkie zmiany jakie były wprowadzone na wersji lokalnej (!! Uwaga operacja nie jest odwracalna)
 git push - wypchniecie na brunch (serwer) zmian
@@ -10,15 +17,13 @@ git pull - pobranie zmian z aktualnego bruncha (serwer)
 git fetch - aktualizuje status repozytorium ale nie zmienia plików lokalnych (nie mamy zmian lokalnie (main), ale zaktualizowała się galąź repozytorium (origin/mail))
 
 
-git help - podgląd komend dla git
+
+Komendy dla konsoli:
 clear - wyczyść konsole
 
-SUMMARY OF LESS COMMANDS
+Komendy do konsoli podczas przeglądania
 q  :q  Q  :Q  ZZ        Exit.
 h  H                    A key preceded by a caret indicates the Ctrl key; thus ^K is ctrl-K.
-
-
-Moving
 e  ^E  j  ^N  CR    *  Forward  one line   (or N lines).
 y  ^Y  k  ^K  ^P    *  Backward one line   (or N lines).
 ESC-j               *  Forward  one file line (or N file lines).
