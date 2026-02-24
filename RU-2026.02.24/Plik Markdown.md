@@ -46,13 +46,10 @@ aaa to będzie cytowanie (ta sekcja nie miała znacznika)
 | comment | Komentarz do zmiany | nie | max 500 znaków | `Brak danych` |
 
 ### Dodajemy obrazek
-![Obrazek](placeholder.png)
+![Obrazek](Placeholder.png)
 
 
 ### Check list
-
-( ) Zadanie 1
-
-(x) Zadanie 2
-
-( ) Zadanie 3
+[ ]  Zadanie 1
+[x] Zadanie 2
+[ ] Zadanie 3
