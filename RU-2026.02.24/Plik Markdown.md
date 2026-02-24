@@ -32,6 +32,7 @@ aaa to będzie cytowanie (ta sekcja nie miała znacznika)
 ### tabela:
 
 | Kol 1 | Kol 2 |
+|---|---|
 | Bardzo długi teskt dla testu | . |
 | . | Bardzo długi teskt dla testu |
 
@@ -45,4 +46,11 @@ aaa to będzie cytowanie (ta sekcja nie miała znacznika)
 | comment | Komentarz do zmiany | nie | max 500 znaków | `Brak danych` |
 
 ### Dodajemy obrazek
-![Obrazek](img/placeholder.png)
+![Obrazek](RU-2026.02.24/placeholder.png)
+
+
+### Check list
+
+( ) Zadanie 1
+(x) Zadanie 2
+( ) Zadanie 3
