@@ -19,8 +19,9 @@ git branch                  - podgląd lokalnych gałęzi
 git branch [nazwa]          - utworz lokalną gałąź, nazwa bez spacji, na poczatek cel (feature - dodanie nowej funkcjonalnosci, bugfix - poprawy błędów, hotfix - zmiany hotfix) np feature/przyspieszenie-raporty-zz5
 git branch -r               - podglad gałęzi na serwerze
 git checkout [nazwa galęzi] - przepiecie się na wskazaną gałąź repozytorium
+git stash                   - przy wystąpieniu konfliktu odkłada zmiany na "bok"
+git stash pop               - przywraca zmiany
 git merge [nazwa galęzi]    - połączenie zmian z dwóch gałęzi (dodajemy do gałęzi na której jesteśmy)
-
 
 Komendy dla konsoli:
 clear - wyczyść konsole
