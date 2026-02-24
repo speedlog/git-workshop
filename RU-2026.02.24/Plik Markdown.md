@@ -34,3 +34,15 @@ aaa to będzie cytowanie (ta sekcja nie miała znacznika)
 | Kol 1 | Kol 2 |
 | Bardzo długi teskt dla testu | . |
 | . | Bardzo długi teskt dla testu |
+
+### Kopia tabeli z przykładu
+
+| Pole | Znaczenie | Wymagalne | Walidacja | Przykład |
+|---|---|---:|---|---|
+| caseId | Identyfikator sprawy | tak | format `C-\d+` | `C-10001` |
+| status | Status sprawy | tak | `NEW/IN_PROGRESS/DONE` | `NEW` |
+| updatedBy | Użytkownik zmieniający status | tak | niepuste | `john.doe` |
+| comment | Komentarz do zmiany | nie | max 500 znaków | `Brak danych` |
+
+### Dodajemy obrazek
+![Obrazek](img/placeholder.png)
