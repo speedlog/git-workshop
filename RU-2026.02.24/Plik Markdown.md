@@ -50,6 +50,16 @@ aaa to będzie cytowanie (ta sekcja nie miała znacznika)
 
 
 ### Check list
-[ ]  Zadanie 1
+[ ] Zadanie 1
 [x] Zadanie 2
 [ ] Zadanie 3
+
+
+### Przykład cytatu (kodu)
+
+```json
+{
+  "caseId": "C-10001",
+  "status": "IN_PROGRESS",
+  "updatedBy": "john.doe"
+}
