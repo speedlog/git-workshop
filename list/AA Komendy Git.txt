@@ -7,6 +7,7 @@ git log - pokazuje zmiany (commit) jakie były wykonywane w repozytorium
 git reset --hard - cofa wszystkie zmiany jakie były wprowadzone na wersji lokalnej (!! Uwaga operacja nie jest odwracalna)
 git push - wypchniecie na brunch (serwer) zmian
 git pull - pobranie zmian z aktualnego bruncha (serwer)
+git fetch - aktualizuje status repozytorium ale nie zmienia plików lokalnych (nie mamy zmian lokalnie (main), ale zaktualizowała się galąź repozytorium (origin/mail))
 
 
 git help - podgląd komend dla git
