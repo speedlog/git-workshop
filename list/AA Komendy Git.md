@@ -1,0 +1,34 @@
+# List komend do git'a (autor R. Urban)
+
+## git help    - podgląd komend dla git (bezpieczniej używać tej opcji, bo opisy mogą być błędne/niekompletne) 
+
+# Komendy dla GIT:
+- git clone [adres rep]       - lokalne pobranie wskazanego repozytorium np (git clone https://github.com/speedlog/git-workshop)
+- git status                  - (aktualny status naszego repozytorium)
+- git config list             - podglad moich ustawień (autoryzacja, nazwa uzytkownika)
+- git add [nazwa pliku]       - dodaje wskazany nowy plik do commit
+- git add .                   - dodaj wszystkie modyfikowane pliki do commit
+- git commit                  - aktualizuje dodane (add) pliku na serverze
+- git commit -m "komentarz"   - aktualizacja pliku z komentarzem
+- git diff                    - zobacz roznice pomiedzy wersja aktualna a wersja edytowana (rzeczy bez commite z rzeczyami commite)
+- git log                     - pokazuje zmiany (commit) jakie były wykonywane w repozytorium
+- git reset --hard            - cofa wszystkie zmiany jakie były wprowadzone na wersji lokalnej (!! Uwaga operacja nie jest odwracalna)
+- git pull                    - pobranie zmian z aktualnego bruncha (serwer)
+- git push                    - wypchniecie na brunch (serwer) zmian
+- git fetch                   - aktualizuje status repozytorium ale nie zmienia plików lokalnych
+- git branch                  - podgląd lokalnych gałęzi
+- git branch [nazwa]          - utworz lokalną gałąź, nazwa bez spacji, na poczatek cel (feature - dodanie nowej funkcjonalnosci, bugfix - poprawy błędów, hotfix - zmiany hotfix) np feature/przyspieszenie-raporty-zz5
+- git branch -r               - podglad gałęzi na serwerze
+- git checkout [nazwa galęzi] - przepiecie się na wskazaną gałąź repozytorium
+- git stash                   - przy wystąpieniu konfliktu odkłada zmiany na "bok"
+- git stash pop               - przywraca zmiany
+- git merge [nazwa galęzi]    - połączenie zmian z dwóch gałęzi (dodajemy do gałęzi na której jesteśmy)
+
+## Komendy dla konsoli:
+- clear - wyczyść konsole
+
+## Komendy do edytora
+- q  :q  Q  :Q  ZZ    - Exit
+- h  H                - help
+- :wq                 - (write quit) 
+- ^q (ctrl + q)         - wyjście edytoral
